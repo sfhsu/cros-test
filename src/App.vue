@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <cros-test />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import crosTest from './components/cros-test.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    crosTest
   }
 }
 </script>
