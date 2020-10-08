@@ -16,7 +16,7 @@ export default {
     name: 'cros-test',
     data: function() {
         return {
-            webapiUrl: 'https://services.kneron.com.tw/masked_face/',
+            webapiUrl: 'https://services.kneron.com.tw/age_gender_detection',
             file: '',
             fileUrl: '',
             responseMedia: '',
