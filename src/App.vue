@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+  <div id="app" class="container">
+    <img alt="Kneron logo" class="logo" src="./assets/logo.png" />
     <cros-test />
   </div>
 </template>
@@ -23,6 +23,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
+}
+
+.logo {
+    max-width: 80%;
+    max-height: 80%;
 }
 </style>
