@@ -25,13 +25,13 @@
         <div v-if="responseText" style="font-size:24px;">{{ responseText }}</div>
         <img v-else-if="responseMedia" :src="'data:image/png;base64,'+responseMedia" @click="openNewWindow()" id="largeImage" class="preview-img" width="70%" height="70%" />
         <div v-else-if="blProcessing">
-                            <div class="spinner-grow text-primary" role="status"></div>&nbsp;
-                            <div class="spinner-grow text-secondary" role="status"></div>&nbsp;
-                            <div class="spinner-grow text-success" role="status"></div>&nbsp;
-                            <div class="spinner-grow text-danger" role="status"></div>&nbsp;
-                            <div class="spinner-grow text-warning" role="status"></div>
-                            <div>Processing...</div>
-                        </div>
+            <div class="spinner-grow text-primary" role="status"></div>&nbsp;
+            <div class="spinner-grow text-secondary" role="status"></div>&nbsp;
+            <div class="spinner-grow text-success" role="status"></div>&nbsp;
+            <div class="spinner-grow text-danger" role="status"></div>&nbsp;
+            <div class="spinner-grow text-warning" role="status"></div>
+            <div>Processing...</div>
+        </div>
         <br /><br />
     </div>
 </template>
