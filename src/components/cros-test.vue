@@ -23,7 +23,7 @@
         </div>
         <br /><br />
         <div v-if="responseText" style="font-size:24px;">{{ responseText }}</div>
-        <img v-else-if="responseMedia" :src="'data:image/png;base64,'+responseMedia" @click="openNewWindow()" id="largeImage" class="preview-img" width="70%" height="70%" />
+        <img v-else-if="responseMedia" :src="'data:image/png;base64,'+responseMedia" @click="openNewWindow()" id="largeImage" class="preview-img" width="100%" />
         <div v-else-if="blProcessing">
             <div class="spinner-grow text-primary" role="status"></div>&nbsp;
             <div class="spinner-grow text-secondary" role="status"></div>&nbsp;
